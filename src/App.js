@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -14,7 +13,10 @@ function App() {
           <li>contact me</li>
         </ul>
       </header>
-
+      <div style={{color: "blue"}}>
+        <a href="https://balsamiq.cloud/s6di74y/pwdw20j">[WIREFRAME] 
+        Contents to be added in future deployments.</a>
+      </div>
       <footer style={{position: 'absolute', bottom:'1px'}}>2019 thapasya m</footer>
     </div>
   );
