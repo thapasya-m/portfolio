@@ -5,20 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="">
+        {/* [TODO]--------------use router dom------browser router-------------- */}
+        <ul style={{display: "flex", justifyContent:"space-around"}}>
+          <li>about me</li>
+          <li>projects</li>
+          <li>skills</li>
+          <li>contact me</li>
+        </ul>
       </header>
+
+      <footer style={{position: 'absolute', bottom:'1px'}}>2019 thapasya m</footer>
     </div>
   );
 }
