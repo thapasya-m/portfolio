@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="">
-        {/* [TODO]------use router dom------browser router-------------- */}
+        {/* [TODO]----------use router dom------browser router-------------- */}
         <ul style={{display: "flex", justifyContent:"space-around", listStyle:"none"}}>
           <li>about me</li>
           <li>projects</li>
