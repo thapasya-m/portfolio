@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="">
         {/* [TODO]--------------use router dom------browser router-------------- */}
-        <ul style={{display: "flex", justifyContent:"space-around"}}>
+        <ul style={{display: "flex", justifyContent:"space-around", listStyle:"none"}}>
           <li>about me</li>
           <li>projects</li>
           <li>skills</li>
