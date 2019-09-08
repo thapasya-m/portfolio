@@ -12,12 +12,12 @@ const Header = (props) => {
                     <span>/</span>
                 </li>
                 <li>
-                <a href="/projects">projects</a>
-                <span>/</span>
+                    <a href="/projects">projects</a>
+                    <span>/</span>
                 </li>
                 <li>
-                <a href="/skills">skills</a>
-                <span>/</span>
+                    <a href="/skills">skills</a>
+                    <span>/</span>
                 </li>
                 <li>
                     <a href="/contact">contact</a>

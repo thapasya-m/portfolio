@@ -7,16 +7,15 @@ function App() {
   return (
     <div className="App">
     <Header />
-<div>
-  <div className="image-wrapper">
+    <div>
+      <div className="image-wrapper">
         <div className="image left-face"></div>
         <div className="mid-line"></div>
         <div className="image right-face"></div>
       </div>
-  
-</div>
+    </div>
       
-    <Footer />
+    {/* <Footer /> */}
     </div>
   );
 }
