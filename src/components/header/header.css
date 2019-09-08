@@ -1,0 +1,33 @@
+header nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top:0px;
+  }
+nav ul {
+    display: flex;
+    justify-content:flex-end;
+    list-style:none;
+}
+header a,header li {
+    color: gray;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    text-decoration: none;
+}
+header span {
+    display: inline-block;
+    zoom: 1;
+    width: 10px;
+    height: 15px;
+    margin: 0px;
+    background-position: center center;
+    background-size: 10px 15px;
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 6px;
+}
+  

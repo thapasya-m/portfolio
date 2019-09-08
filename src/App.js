@@ -7,12 +7,14 @@ function App() {
   return (
     <div className="App">
     <Header />
-      
-      <div className="image-wrapper">
-        <div className="left-face"></div>
+<div>
+  <div className="image-wrapper">
+        <div className="image left-face"></div>
         <div className="mid-line"></div>
-        <div className="right-face"></div>
+        <div className="image right-face"></div>
       </div>
+  
+</div>
       
     <Footer />
     </div>

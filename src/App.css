@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .main{
   order: 2;
 }
@@ -15,106 +9,19 @@
   padding: 10px;
   flex: 1 100%;
 }
-footer{
-  order:3;
-}
-header nav{
-  /* background-color: #282c34; */
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  top:0px;
-}
-nav ul {
-  display: flex;
-  justify-content:flex-end;
-  list-style:none;
-}
-header a,header li {
-  color: blueviolet;
-  font-size: calc(10px + 2vmin);
-  font-weight: bold;
-  text-decoration: none;
-}
-header span {
-  display: inline-block;
-    zoom: 1;
-    width: 10px;
-    height: 15px;
-    margin: 0px;
-    background-position: center center;
-    background-size: 10px 15px;
-    background-repeat: no-repeat;
-    margin-bottom: 6px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-bottom: 6px;
-}
-.image-wrapper {
-  /* position:relative;
-  width: 50px;
-  height: 150px; */
-  /* transform:rotate(-90deg) translateY(-100px);
-  transform-origin: right top;
-  overflow-y: auto;
-  overflow-x: hidden; */
-}
-.image-wrapper .mid-line{
-  /* height:10px; */
-  /* background-color:red; */
-  /* font-size:36px; */
+
+.image-wrapper .image {
+  min-height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50vw;
 }
 .image-wrapper .left-face{
-  /* position: relative;
-  top: 0;
-  left: 0; */
-  /* position:absolute;
-    width: 50px;
-    height: 150px;
-    z-index: 5; */
-    /* The image used */
   background-image: url("./assets/images/image.png");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 .image-wrapper .right-face{
-  /* position: absolute;
-  top: 60px;
-  left: 80px; */
-  /* position: absolute;
-    top: 50px;
-    right: -25px;
-    width: 50px;
-    z-index: 6; */
-    background-image: url("./assets/images/image2a.png");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-image: url("./assets/images/image2a.png");
 }

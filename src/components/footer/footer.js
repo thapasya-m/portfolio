@@ -1,8 +1,9 @@
 import React from 'react';
+import './footer.css';
 
 const Footer = (props) => {
     return (
-        <footer style={{ position: 'fixed', bottom:'1px', right:'50%'}}>2019 thapasya m</footer>
+        <footer>2019 thapasya m</footer>
     );
 }
 export default Footer;
