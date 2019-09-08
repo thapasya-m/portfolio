@@ -19,9 +19,9 @@
   background-size: 50vw;
 }
 .image-wrapper .left-face{
-  background-image: url("./assets/images/image.png");
+  background-image: url("./assets/images/image1.png");
   
 }
 .image-wrapper .right-face{
-  background-image: url("./assets/images/image2a.png");
+  background-image: url("./assets/images/image2a1.png");
 }

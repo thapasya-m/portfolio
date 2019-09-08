@@ -12,6 +12,9 @@ nav ul {
     justify-content:flex-end;
     list-style:none;
 }
+a:hover {
+    color: black;
+}
 header a,header li {
     color: gray;
     font-size: calc(10px + 2vmin);
