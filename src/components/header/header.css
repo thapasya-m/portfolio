@@ -13,10 +13,10 @@ nav ul {
     list-style:none;
 }
 a:hover {
-    color: black;
+    color: #E3A32E;
 }
 header a,header li {
-    color: gray;
+    color: #4C94E0;
     font-size: calc(10px + 2vmin);
     font-weight: bold;
     text-decoration: none;
