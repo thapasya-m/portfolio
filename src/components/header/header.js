@@ -13,19 +13,19 @@ const Header = (props) => {
         <nav>
             <ul>
                 <li>
-                    <a href="/about">about me</a>
+                    <a href="/">about me</a>
                     <span>/</span>
                 </li>
                 <li>
-                    <a href="/projects">projects</a>
+                    <a href="/">projects</a>
                     <span>/</span>
                 </li>
                 <li>
-                    <a href="/skills">skills</a>
+                    <a href="/">skills</a>
                     <span>/</span>
                 </li>
                 <li>
-                    <a href="/contact">contact</a>
+                    <a href="/">contact</a>
                 </li>
             </ul>
         </nav>
