@@ -31,9 +31,10 @@ nav ul {
   justify-content:flex-end;
   list-style:none;
 }
-header a {
+header a,header li {
   color: blueviolet;
   font-size: calc(10px + 2vmin);
+  font-weight: bold;
   text-decoration: none;
 }
 header span {
@@ -42,16 +43,67 @@ header span {
     width: 10px;
     height: 15px;
     margin: 0px;
-    background-image: url(/images/ui/nav/separator.png);
     background-position: center center;
     background-size: 10px 15px;
     background-repeat: no-repeat;
     margin-bottom: 6px;
-    /* position: relative; */
     display: inline-block;
-    -webkit-backface-visibility: hidden;
     vertical-align: middle;
     padding-bottom: 6px;
+}
+.image-wrapper {
+  /* position:relative;
+  width: 50px;
+  height: 150px; */
+  /* transform:rotate(-90deg) translateY(-100px);
+  transform-origin: right top;
+  overflow-y: auto;
+  overflow-x: hidden; */
+}
+.image-wrapper .mid-line{
+  /* height:10px; */
+  /* background-color:red; */
+  /* font-size:36px; */
+}
+.image-wrapper .left-face{
+  /* position: relative;
+  top: 0;
+  left: 0; */
+  /* position:absolute;
+    width: 50px;
+    height: 150px;
+    z-index: 5; */
+    /* The image used */
+  background-image: url("./assets/images/image.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-wrapper .right-face{
+  /* position: absolute;
+  top: 60px;
+  left: 80px; */
+  /* position: absolute;
+    top: 50px;
+    right: -25px;
+    width: 50px;
+    z-index: 6; */
+    background-image: url("./assets/images/image2a.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-link {
