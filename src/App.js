@@ -1,23 +1,21 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import image1 from './assets/images/image.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="">
-        {/* [TODO]----------use router dom------browser router-------------- */}
-        <ul style={{display: "flex", justifyContent:"space-around", listStyle:"none"}}>
-          <li>about me</li>
-          <li>projects</li>
-          <li>skills</li>
-          <li>contact me</li>
-        </ul>
-      </header>
-      <div style={{color: "blue"}}>
-        <a href="https://balsamiq.cloud/s6di74y/pwdw20j">[WIREFRAME] 
-        Contents to be added in future deployments.</a>
+    <Header />
+      <div className="main" style={{color: "blue"}}>
+        <div className="image-wrapper">
+          <img src={image1} alt="thats me"/>
+        </div>
+        {/* <a href="https://balsamiq.cloud/s6di74y/pwdw20j">[WIREFRAME] 
+        Contents to be added in future deployments.</a> */}
       </div>
-      <footer style={{position: 'absolute', bottom:'1px'}}>2019 thapasya m</footer>
+    <Footer />
     </div>
   );
 }
