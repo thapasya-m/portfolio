@@ -1,9 +1,14 @@
 import React from 'react';
+import logo from '../../assets/images/logo.png'
+
 import './header.css';
 
 const Header = (props) => {
     return (
         <header className="header">
+            <a href="/">
+                <img src={logo} alt="logo"/>
+            </a>
         {/* [TODO]----------use router dom------browser router-------------- */}
         <nav>
             <ul>
