@@ -3,7 +3,9 @@ import './footer.css';
 
 const Footer = (props) => {
     return (
-        <footer>2019 thapasya m</footer>
+        <footer>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius
+        </footer>
     );
 }
 export default Footer;

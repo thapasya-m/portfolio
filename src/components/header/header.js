@@ -1,14 +1,18 @@
 import React from 'react';
 import logo from '../../assets/images/logo.png'
 
-import './header.css';
+// import './header.css';
 
 const Header = (props) => {
     return (
-        <header className="header">
-            <a href="/">
+        <header 
+        // role="banner"
+        // className="header"
+        >
+        {/* header */}
+            {/* <a href="/">
                 <img src={logo} alt="logo"/>
-            </a>
+            </a> */}
         {/* [TODO]----------use router dom------browser router-------------- */}
         <nav>
             <ul>
