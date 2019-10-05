@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SkillsPage = (props) => {
+function SkillsPage() {
     return (
         <div>
             skills page

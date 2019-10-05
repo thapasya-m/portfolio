@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/header';
-import Footer from './components/footer/footer';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import Home from './screens/home/home';
+import AboutPage from './screens/about/about';
+import ProjectsPage from './screens/projects/projects';
+import SkillsPage from './screens/skills/skills';
 
 function App() {
   return (
-    <main className="App">
-    <Header />
-    <section className="hero">
-      <div className="image-wrapper">
-        <div className="image left-face"></div>
-        <div className="mid-line"></div>
-        <div className="image right-face"></div>
-      </div>
-    </section>
-      
-    <Footer />
-    </main>
+    <Switch>
+      <Route component={AboutPage} path="/about-me"/>
+      <Route component={ProjectsPage} path="/projects"/>
+      <Route component={SkillsPage} path="/skills"/>
+      <Route component={Home} path="/" exact/>
+      <Route path="*" render={() => <Redirect to="/"/>}/>
+    </Switch>
   );
 }
 

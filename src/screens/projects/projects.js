@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectsPage = (props) => {
+function ProjectsPage() {
     return (
         <div>
             projects page

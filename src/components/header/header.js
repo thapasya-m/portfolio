@@ -1,23 +1,19 @@
 import React from 'react';
 import logo from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom';
 
 // import './header.css';
 
 const Header = (props) => {
     return (
-        <header 
+        <header
         // role="banner"
         // className="header"
         >
-        {/* header */}
-            {/* <a href="/">
-                <img src={logo} alt="logo"/>
-            </a> */}
-        {/* [TODO]----------use router dom------browser router-------------- */}
         <nav>
             <ul>
                 <li>
-                    <a href="/">about me</a>
+                    <Link to="/about-me">about me</Link>
                     <span>/</span>
                 </li>
                 <li>
@@ -33,7 +29,7 @@ const Header = (props) => {
                 </li>
             </ul>
         </nav>
-        
+
       </header>
     );
 }
